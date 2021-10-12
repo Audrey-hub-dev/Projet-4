@@ -711,6 +711,7 @@ h2 {
 
 .citation {
     font-size: 18px; 
+
 }
 .citation p {
     margin-top: 5px; 
@@ -723,7 +724,7 @@ h3 {
     color: #333333!important;
 }
 
-.med-width-whitespace {
+.med-width-whitespace , .citation {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
