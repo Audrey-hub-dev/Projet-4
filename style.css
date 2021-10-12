@@ -709,6 +709,13 @@ h2 {
     line-height: 1.4em;
 }
 
+.citation {
+    font-size: 18px; 
+}
+.citation p {
+    margin-top: 5px; 
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
