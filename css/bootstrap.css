@@ -3102,7 +3102,7 @@ input[type=search] {
 input[type=checkbox],
 input[type=radio] {
     margin: 4px 0 0;
-    margin-top: 1px\9;
+    margin-top: 1px;
     line-height: normal
 }
 
@@ -3250,7 +3250,7 @@ input[type=search] {
 .radio input[type=radio],
 .radio-inline input[type=radio] {
     position: absolute;
-    margin-top: 4px\9;
+    margin-top: 4px;
     margin-left: -20px
 }
 
@@ -4180,14 +4180,14 @@ fieldset[disabled] .btn-link {
 .btn-link:active,
 .btn-link:focus,
 .btn-link:hover {
-    border-color: transparent
+    border-color: none
 }
 
 .btn-link:focus,
 .btn-link:hover {
     color: #23527c;
     text-decoration: underline;
-    background-color: transparent
+    background-color: none
 }
 
 .btn-link[disabled]:focus,
@@ -4421,7 +4421,7 @@ tbody.collapse.in {
     content: "";
     border-top: 0;
     border-bottom: 4px dashed;
-    border-bottom: 4px solid\9
+    border-bottom: 4px solid
 }
 
 .dropup .dropdown-menu,
@@ -5746,7 +5746,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #fff;
     cursor: default;
     background-color: #337ab7;
-    border-color: #337ab7
+    border-color: none
 }
 
 .pagination>.disabled>a,
@@ -6399,7 +6399,7 @@ button.list-group-item {
     z-index: 2;
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
+    border-color: none
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -6451,7 +6451,7 @@ button.list-group-item-success.active:focus,
 button.list-group-item-success.active:hover {
     color: #fff;
     background-color: #3c763d;
-    border-color: #3c763d
+    border-color: none
 }
 
 .list-group-item-info {
@@ -6485,7 +6485,7 @@ button.list-group-item-info.active:focus,
 button.list-group-item-info.active:hover {
     color: #fff;
     background-color: #31708f;
-    border-color: #31708f
+    border-color: none
 }
 
 .list-group-item-warning {
@@ -6519,7 +6519,7 @@ button.list-group-item-warning.active:focus,
 button.list-group-item-warning.active:hover {
     color: #fff;
     background-color: #8a6d3b;
-    border-color: #8a6d3b
+    border-color: none
 }
 
 .list-group-item-danger {
@@ -6553,7 +6553,7 @@ button.list-group-item-danger.active:focus,
 button.list-group-item-danger.active:hover {
     color: #fff;
     background-color: #a94442;
-    border-color: #a94442
+    border-color: none
 }
 
 .list-group-item-heading {
@@ -6870,7 +6870,7 @@ button.list-group-item-danger.active:hover {
 .panel-primary>.panel-heading {
     color: #fff;
     background-color: #337ab7;
-    border-color: #337ab7
+    border-color: none
 }
 
 .panel-primary>.panel-heading+.panel-collapse>.panel-body {
@@ -7819,7 +7819,7 @@ button.close {
 
 .text-hide {
     font: 0/0 a;
-    color: transparent;
+    opacity: 0;
     text-shadow: none;
     background-color: transparent;
     border: 0
