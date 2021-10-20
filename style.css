@@ -92,7 +92,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper-c.png");
     background-size: 280px 280px;
 }
 
@@ -370,6 +370,14 @@ a:hover {
     z-index: 2;
 }
 
+.navbar-header a {
+    display: flex; 
+}
+.navbar-header p {
+    font-size: 20px; 
+    margin:0px; 
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -447,6 +455,7 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 
 .mg-lg {
     margin-top: 10px;
@@ -690,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -724,17 +733,18 @@ h2 {
 
 .citation {
     font-size: 18px; 
+   
 
 }
 .citation p {
-    margin-top: 5px; 
+    margin: 5px 5px 5px 5px; 
 }
 
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 .med-width-whitespace , .citation {
@@ -748,6 +758,7 @@ h1 {
 }
 
 
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -755,6 +766,7 @@ h1 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: 0 auto; 
 }
 
 .portfolio-row {
@@ -774,28 +786,29 @@ h1 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    white-space: pre-line;
 }
+
 
 .bgc-white {
     background-color: #FFFFFF;
 }
+
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white, .white {
-    color: #F3FAFF!important;
+    color: white!important;  
 }
 
-
 .btn-atomic-tangerine {
-    background: #F3FAFF;
-    color:#364577!important;
+    background-color: #F3976C ;
+    color:#361C00!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -833,12 +846,12 @@ h1 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere1.jpg");
+    background-image: url("img/la-chouette-agence-banniere1-c.jpg");
    
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation1.jpg");
+    background-image: url("img/image-de-presentation1-c.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -901,12 +914,6 @@ h1 {
 }
 
 @media (max-width: 767px) {
-
-    .portfolio-row img {
-        width: 250px;
-        height: 250px; 
-        margin: 0 auto; 
-    }
 
     .page-container {
         overflow-x: hidden;
