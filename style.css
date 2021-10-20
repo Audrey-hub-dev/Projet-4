@@ -375,7 +375,6 @@ a:hover {
 }
 .navbar-header p {
     font-size: 20px; 
-    margin:0px; 
 }
 
 @media (min-width: 768px) {
@@ -1057,6 +1056,9 @@ h1 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .navbar-header p {
+        font-size: 16px; 
     }
 }
 
