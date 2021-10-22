@@ -732,11 +732,13 @@ h2 {
 
 .citation {
     font-size: 18px; 
+    color : black;
    
 
 }
 .citation p {
     margin: 5px 5px 5px 5px; 
+    color : black; 
 }
 
 h3 {
